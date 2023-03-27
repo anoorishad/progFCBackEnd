@@ -20,6 +20,7 @@ public class FlashCard implements Serializable {
 
     private String content;
 
+    @Column(name = "prog_lang")
     private String progLang;
 
     public long getId() {
